@@ -12,10 +12,18 @@ terms.
 Before you begin, you must sigup for a new project in the Google APIs console:
 https://code.google.com/apis/console
 
-Then register the project to use OAuth2.0 for installed applications.
 
-Finally you will need to add the client id, client secret, and redirect URL
+1.	Register a Gmail account
+2.	Add the registered account to Google Analytics admin
+3.  Before you begin, you must sigup for a new project in the Google APIs console:
+https://code.google.com/apis/console
+4.	Download API keys from Google Development Platform
+5.  Then register the project to use OAuth2.0 for installed applications. You will need to add the client id, client secret, and redirect URL
 into the client_secrets.json file that is in the same directory as this sample.
+6.  Create a .bat file and store keys in dictionary
+
+Files and their implication:
+1.	add_dates.csv – This file contains date ranges for pulling data in batches preferably every two weeks to avoid getting sample data (Sampled data is a randomly selected data within a specified period usually arises when data within that period is enormous).  Date format should be preserved.
 
 
 """
